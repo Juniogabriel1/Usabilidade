@@ -1,7 +1,8 @@
 # Título do Projeto
 
-![animais](https://user-images.githubusercontent.com/80658338/165864014-15a884d5-bea2-4872-8ab7-d4caaa0b5021.jpg)
 
+
+![animais-removebg-preview](https://user-images.githubusercontent.com/80658338/165864091-c87357b5-5b70-432a-834d-2845ed8ac704.png)
 
 
 
