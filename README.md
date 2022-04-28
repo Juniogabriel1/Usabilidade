@@ -1,7 +1,9 @@
 # Título do Projeto
 
+![animais](https://user-images.githubusercontent.com/80658338/165864014-15a884d5-bea2-4872-8ab7-d4caaa0b5021.jpg)
 
-![Capa do Projeto]
+
+
 
 # Sobre o Projeto
 
