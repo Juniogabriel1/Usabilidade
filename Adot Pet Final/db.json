@@ -1,0 +1,70 @@
+{
+  "animais": [
+    {
+      "id": "junio",
+      "name": "Junio",
+      "category": "Cachorro",
+      "age": "3 aninhos",
+      "imagePath": "assets/img/animais/junio.jpg",
+      "about": "Bonitinho e carinhoso.",
+      "address":"Rua Andale Andale 497, Bairro Cucaracha",
+      "phoneNumber":"(31) 9 8437-5992",
+      "email":"juliana@gmail.com"
+    },
+    {
+      "id": "heitor",
+      "name": "Heitor",
+      "category": "Cachorro",
+      "age": "10 meses",
+      "imagePath": "assets/img/animais/heitor.jpg",
+      "about": "Brincalhão demais, ama passear em parques.",
+      "address":"Rua Moltres 206, Bairro Pallet",
+      "phoneNumber":"(31) 9 9664-7831",
+      "email":"amanda@gmail.com"
+    },
+    {
+      "id": "vini",
+      "name": "Vini",
+      "category": "Cachorro",
+      "age": "1 aninho",
+      "imagePath": "assets/img/animais/vivi.jpg",
+      "about": "Bobão mas nunca te deixa na mão.",
+      "address":"Calvinho dos Anjos 143, Bairro São Careca",
+      "phoneNumber":"(31) 9 9783-5472",
+      "email":"sandra@gmail.com"
+    },
+    {
+      "id": "dudu",
+      "name": "Dudu",
+      "category": "Gato",
+      "age": "10 dias",
+      "imagePath": "assets/img/animais/dudu.jpg",
+      "about": "Já nasceu carente, ama um colo.",
+      "address":"Rua Sapo Louco 1354, Bairro Binbin",
+      "phoneNumber":"(31) 9 8753-7461",
+      "email":"pedro@gmail.com"
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "category": "Gato",
+      "age": "2 aninhos",
+      "imagePath": "assets/img/animais/lulu.jpg",
+      "about": "Nariz empinado mas é tudo pose.",
+      "address":"Rua Tchurabirau 230, Bairro Leleu",
+      "phoneNumber":"(31) 9 9126-7784",
+      "email":"renatinho@gmail.com"
+    },
+    {
+      "id": "alfredo",
+      "name": "Alfredo",
+      "category": "Gato",
+      "age": "5 aninhos",
+      "imagePath": "assets/img/animais/alfredo.jpg",
+      "about": "Ama brincar com a bolinha favorita.",
+      "address":"Rua Salgadinho 591, Bairro Padaria da Esquina",
+      "phoneNumber":"(31) 9 9943-6982",
+      "email":"marquinhos@gmail.com"
+    }
+  ]
+}

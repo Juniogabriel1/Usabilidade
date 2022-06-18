@@ -1,0 +1,12 @@
+<a [routerLink]="['/animais', animal.id]">
+  <div class="place-info-box" [@animalAppeared]="animalState">
+    <span class="place-info-box-icon"><img [src]="animal.imagePath" /></span>
+
+    <div class="place-info-box-content">
+      <span class="place-info-box-text">{{animal.name}}</span>
+      <span class="place-info-box-detail">{{animal.category}}</span>
+      <span class="place-info-box-detail">{{animal.age}}</span>
+    </div>
+    <!-- /.info-box-content -->
+  </div>
+</a>

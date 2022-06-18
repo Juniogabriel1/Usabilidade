@@ -1,0 +1,104 @@
+<!--INICIO DO CONTEUDO-->
+      <section class="content-header">
+      </section>
+
+      <section class="content">
+        <section class="invoice">
+
+              <form [formGroup]="cadastroAnimalForm" novalidate>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <h2 class="page-header">
+                     Cadastro
+                    </h2>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-9">
+                    <p class="lead">Seus Dados:</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <span class="help-block pull-right has-error-block" *ngIf="cadastroAnimalForm.hasError('emailsNotMatch')"><i class="fa fa-remove"></i> Email-s não conferem</span>
+                  </div>
+
+                  <div class="col-sm-6 col-xs-12">
+                    <mt-input-container errorMessage="Campo obrigatório" label="Nome">
+                      <input class="form-control" formControlName="name" placeholder="Nome do Animal*" autocomplete="off" >
+                    </mt-input-container>
+                  </div>
+
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="E-mail inválido" label="E-mail">
+                      <input type="text" class="form-control" formControlName="email" placeholder="E-mail*" autocomplete="off">
+                    </mt-input-container>
+                  </div>
+
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="E-mail inválido" label="E-mail">
+                      <input type="text" class="form-control" formControlName="emailConfirmation" placeholder="Confirmação do E-mail*" autocomplete="off">
+                    </mt-input-container>
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                    <mt-input-container errorMessage="Campo obrigatório" label="Endereço">
+                      <input type="text" class="form-control" formControlName="address" placeholder="Endereço*" autocomplete="off" >
+                    </mt-input-container>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                    <mt-input-container errorMessage="Campo obrigatório" label="Descrição">
+                      <input type="text" class="form-control" formControlName="about" placeholder="Descrição*" autocomplete="off" >
+                    </mt-input-container>
+                  </div>
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="Obrigatório e somente números" label="Número">
+                      <input type="text" class="form-control" formControlName="number" placeholder="Telefone de Contato*" autocomplete="off">
+                    </mt-input-container>
+                  </div>
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="Obrigatório(Ex: 2 anos e 3 meses)" label="Idade">
+                      <input type="text" class="form-control" formControlName="age" placeholder="Idade do Animal*">
+                    </mt-input-container>
+
+                  </div>
+                  
+                    <div class="col-xs-12 col-sm-9" >
+                      <p class="lead">Imagem do Animal</p>                   
+                      
+                        <a type="file" class="btn btn-primary btn-lg">
+                          <input #imageInput
+                              type="file"
+                              formControlName="image"
+                              accept="imagens/*">
+                        </a>
+                        
+                      
+                    </div>
+                  
+
+                  
+                  <!-- /.col -->
+                </div>
+
+
+
+
+              </form>
+
+              <div class="row">
+                <div class="col-xs-12">
+                  <button class="btn btn-success pull-right"
+                    [routerLink]="['/animais']"
+                    [disabled]="!cadastroAnimalForm.valid">
+                      <i class="fa fa-check"></i> Concluir cadastro
+                  </button>
+                </div>
+              </div>
+
+
+          </section>
+      </section>
+      <!-- FIM DO CONTEUDO-->

@@ -1,0 +1,83 @@
+<!--INICIO DO CONTEUDO-->
+      <section class="content-header">
+      </section>
+
+      <section class="content">
+        <section class="invoice">
+
+              <form [formGroup]="cadastroForm" novalidate>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <h2 class="page-header">
+                     Cadastro
+                    </h2>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-9">
+                    <p class="lead">Seus Dados:</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <span class="help-block pull-right has-error-block" *ngIf="cadastroForm.hasError('emailsNotMatch')"><i class="fa fa-remove"></i> Email-s não conferem</span>
+                  </div>
+
+                  <div class="col-sm-6 col-xs-12">
+                    <mt-input-container errorMessage="Campo obrigatório. Min 5 caracteres" label="Nome">
+                      <input class="form-control" formControlName="name" placeholder="Nome*" autocomplete="off" >
+                    </mt-input-container>
+                  </div>
+
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="E-mail inválido" label="E-mail">
+                      <input type="text" class="form-control" formControlName="email" placeholder="E-mail*" autocomplete="off">
+                    </mt-input-container>
+                  </div>
+
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="E-mail inválido" label="E-mail">
+                      <input type="text" class="form-control" formControlName="emailConfirmation" placeholder="Confirmação do e-mail*" autocomplete="off">
+                    </mt-input-container>
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                    <mt-input-container errorMessage="Campo obrigatório" label="Senha">
+                      <input type="password" class="form-control" formControlName="password" placeholder="Senha*" autocomplete="off" >
+                    </mt-input-container>
+                  </div>
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="Obrigatório e somente números" label="Número">
+                      <input type="text" class="form-control" formControlName="number" placeholder="Telefone de Contato*" autocomplete="off">
+                    </mt-input-container>
+                  </div>
+                  <div class="col-sm-3 col-xs-6">
+                    <mt-input-container errorMessage="Campo Obrigatório" label="Data">
+                      <input type="text" class="form-control" formControlName="dataNasc" placeholder="Data de Nasc.*">
+                    </mt-input-container>
+
+                  </div>
+                  <!-- /.col -->
+                </div>
+
+
+
+
+              </form>
+
+              <div class="row">
+                <div class="col-xs-12">
+                  <button class="btn btn-success pull-right"
+                    [routerLink]="['/login']"
+                    [disabled]="!cadastroForm.valid">
+                      <i class="fa fa-check"></i> Concluir cadastro
+                  </button>
+                </div>
+              </div>
+
+
+          </section>
+      </section>
+      <!-- FIM DO CONTEUDO-->
