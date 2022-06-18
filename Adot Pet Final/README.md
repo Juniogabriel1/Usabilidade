@@ -15,3 +15,8 @@
 ### Iniciando o serviço (em outra aba de terminal - raiz da aplicação)
 
 `node backend/dist/server.js` 
+
+
+### Linguagens usadas no projeto
+
+Angular -> TypeScript, JavaScript, CSS e HTML
