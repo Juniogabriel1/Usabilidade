@@ -45,7 +45,11 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-[Exemplo](https://github.com/testing-library/react-testing-library#contributors)
+Eduardo Marques Git: https://github.com/Tsukimono <br/>
+Heitor Araujo Git: https://github.com/heitor-araujo <br/>
+Vinícius Reis  Git: https://github.com/viniciusereis <br/>
+Junio Gabriel  Git: https://github.com/XwXGabrielXwX <br/>
+
 
 # Licença
 
