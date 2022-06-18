@@ -1,4 +1,4 @@
-# Título do Projeto
+# Adot Pet
 
 
 
@@ -16,9 +16,7 @@ No Brasil, vários animais se encontram em situação de rua. Há vários casos 
 
 A criação de um  site que será uma plataforma onde as pessoas terão como tanto adotar quanto doar seus animais, criando uma rede interativa de doação desses bichinhos, terão acesso a informações como: idade, raça, comportamento entre outros aspectos que podem influenciar na hora de adotar um novo pet, onde elas com apenas um clique dar um novo lar para esse animalzinho, facilitando a interação doador ao novo dono. 
 
-<h4 align="center"> 
-	🚧  Em desenvolvimento . . .
-</h4>
+
 
 # Índice/Sumário
 
@@ -34,6 +32,7 @@ A criação de um  site que será uma plataforma onde as pessoas terão como tan
 
 # Requisitos Funcionais 
 
+Os requisitos funcionais então em uma pasta dentro do repositorio. 
 
 
 # Tecnologias Usadas
